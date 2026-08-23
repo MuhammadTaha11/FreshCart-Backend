@@ -1,0 +1,72 @@
+export const productsData = [
+  {
+    name: "Brown Bread",
+    category: "Bakery",
+    price: 120,
+    quantity: "300 g",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnCBEVRuZd1LMw0T5R8uDR3s0_fQxFp3fnRg&s"
+  },
+  {
+    name: "Red Apple",
+    category: "Fruit",
+    price: 380,
+    quantity: "1 kg",
+    image: "data:image/jpeg;base64,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"
+  },
+  {
+    name: "Milk",
+    category: "Dairy",
+    price: 220,
+    quantity: "500 ml",
+    image: "https://img.magnific.com/free-vector/cartoon-blue-milk-cardboard-package-concept_1284-37540.jpg?semt=ais_hybrid&w=740&q=80",
+  },
+  {
+    name: "Carrot",
+    category: "Vegetable",
+    price: 100,
+    quantity: "500 g",
+    image: "https://media.istockphoto.com/id/1388403435/photo/fresh-carrots-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=XmrTb_nASc7d-4zVKUz0leeTT4fibDzWi_GpIun0Tlc=",
+  },
+  {
+    name: "Banana",
+    category: "Fruit",
+    quantity: "1 dozen",
+    price: 120,
+    image: "https://img.magnific.com/free-vector/vector-ripe-yellow-banana-bunch-isolated-white-background_1284-45456.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    name: "Potato",
+    category: "Vegetable",
+    price: 100,
+    quantity: "500 g",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0wN-qTT0BgzcmYxxp9DNkk_8bW6JSFyCL_lgJ15FZuw&s=10",
+  },
+  {
+    name: "Choco Cake",
+    category: "Bakery",
+    price: 550,
+    quantity: "1 Pound",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmNd7Jfjg9hsBnMl5PvR7wQ43fZZuZssGr-JlPaXSwVg&s=10"
+  },
+  {
+    name: "Yougurt",
+    category: "Dairy",
+    price: 150,
+    quantity: "250 g",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWkh6MSAFlIQp3QwGxLQOyaqAG1jCxS0m-bPkFKMVZsg&s=10"
+  },
+  {
+    name: "Mango",
+    category: "Fruit",
+    price: 550,
+    quantity: "1 kg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAJhVG7I1AFG8P6pjvbjtO-jZ4Ol6ZAk9p1uQuQQb3VQ&s=10"
+  },
+  {
+    name: "Onions",
+    category: "Vegetable",
+    price: 200,
+    quantity: "1 kg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUDwG6iAnO84J-lmGJO4_Kmh3-J3LKKTszvgCcyjHJ_g&s=10"
+  }
+];
